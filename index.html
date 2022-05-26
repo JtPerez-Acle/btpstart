@@ -44,9 +44,11 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
+                    <a href="#reserveform">
                     <button type="button" class="btn btn-warning btn-lg btn-block">
                         Reserve Table
                     </button>
+                </a>
                 </div>
             </div>
         </div>
@@ -104,10 +106,12 @@
         </div>
     </div>
     <div class="row row-content">
-        <div class="col-12 offset-2 col-md-8">
-        <div class="card">
-            <h2 class="card-header text-white bg-warning" style="max-width: auto">Reserve a Table</h2>
-            <div class="card-body col-12 col-sm-6">
+        <div class="col-12 offset-3 col-md-8">
+        <div class="card" style="width: 50rem; height: 20rem">
+            <div>
+            <h2 class="card-header text-white bg-warning">Reserve a Table</h2>
+            </div>
+            <div class="card-body">
                 <form>
                     <div class="form-group row">
                         <label for="nguest" class="col-12 col-sm-4 col-form-label"><h5>Number of Guests</h5></label>
@@ -135,22 +139,20 @@
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="6guest">
                             <label class="form-check-label" for="inlineRadio1"><h6>6</h6></label>
                         </div>
-                        
                     </div>
                     <div class="form-group row">
                         <label for="datentime" class="col-12 col-md-4 col-form-label"><h5>Date and Time</h5></label>
-                        <div class="col-4 col-md-4">
+                        <div>
                             <input type="num" class="form-control" id="date" name="date"
                                 placeholder="Date">
                         </div>
-                        <div class="col-4 col-md-4">
+                        <div class="offset-1">
                             <input type="num" class="form-control" id="time" name="time"
                                 placeholder="Time">
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <div class="offset-md-4  col-md-10">
-                            <button type="submit" class="btn btn-primary">
+                        <div id="reserveform">
+                            <button type="submit" class="btn btn-primary btn-lg">
                                 Reserve
                             </button>
                         </div>
