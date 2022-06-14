@@ -52,3 +52,33 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+#loginBttn {
+  background: #512DA8; }
+
+#loginBttn:hover {
+  background: #9575CD; }
+
+#resformModal {
+  width: 100%;
+  size: auto;
+}
+
+.closeBtn:hover {
+  background: #9575CD; }
+  
+.modal-content {
+  display: flex;
+}
+
+.modal-header {
+  background-color: #512DA8;
+}
+
+.modal-body {
+  background-color: #9575CD;
+}
+
+h3 {
+  color: white;
+}

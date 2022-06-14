@@ -75,3 +75,34 @@ body{
     z-index: 1;
 }
 
+#loginBttn {
+    background: $background-dark;
+}
+
+#loginBttn:hover {
+    background: $background-light;
+}
+
+#resformModal {
+    width: 100%;
+    size: auto;
+}
+  
+.closeBtn:hover {
+    background: $background-light }
+    
+.modal-content {
+    display: flex;
+}
+  
+.modal-header {
+    background-color: $background-dark
+}
+  
+.modal-body {
+    background-color: $background-light;
+}
+  
+h3 {
+    color: white;
+}
